@@ -1,0 +1,44 @@
+$white: #F2F8FF;
+$black: #627791;
+$blue: #0EB7D2;
+@font-face {
+    font-family: 'leelawdb-bold';
+    src: url('../fonts/leelawdb.ttf');
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: 'roboto_m';
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+
+* { 
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: $black;
+    font-family: 'roboto';
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+h3 {
+    font-family: 'roboto_m';
+    font-size: 15px;
+}
+
+
+
+
+@mixin grid($row_start, $row_end, $column_start, $column_end) {
+    grid-row-start: $row_start;
+    grid-row-end: $row_end;
+    grid-column-start: $column_start;
+    grid-column-end: $column_end;
+}
