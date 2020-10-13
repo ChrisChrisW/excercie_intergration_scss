@@ -48,6 +48,7 @@ body {
         }
     }
 }
+
 .block_contenu1d {
     @include grid(1,3,7,12);
     & .top {
@@ -78,8 +79,6 @@ body {
         }
     }
 }
-
-
 
 .block_contenu2g {
     @include grid(2,3,1,6);
@@ -164,7 +163,6 @@ body {
     }
 }
 
-
 .article_wolverine {
     display: flex;
     justify-content: center;
@@ -192,7 +190,6 @@ body {
         }
     }
 }
-
 
 footer {
     display: flex;
